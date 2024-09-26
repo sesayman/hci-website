@@ -56,3 +56,60 @@
 .user-info h3 {
     color: #212ea0;
 }
+/*media query*/
+@media (max-width: 800px) {
+    .testimonials {
+        padding: 0 40px;
+    }
+    .next-btn, .back-btn {
+        padding: 10px;
+        width: 35px;
+    }
+    .testimonials ul li {
+        padding: 10px;
+    }
+    .slide{
+        padding: 10px;
+    }
+    .slide img {
+        width: 50px;
+        border: 3px solid #212ea0;
+    }
+}
+
+@media (max-width: 600px) {
+    .user-info {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .user-info h3 {
+        font-size: 16px;
+    }
+    .slider p {
+        font-size: 12px;
+    }
+}
+.dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background-color: #212ea0; /* Active color */
+}
+.next-btn:hover, .back-btn:hover {
+    background: #1b1f7a; /* Darker shade on hover */
+    transition: background 0.3s;
+}
