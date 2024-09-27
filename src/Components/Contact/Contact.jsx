@@ -39,9 +39,9 @@ const Contact = () => {
                     Your feedback, questions, and suggestions are important to us as we
                     strive to provide exceptional service to our university community.</p>
                 <ul>
-                    <li><img src={mail_icon} alt=""/> contact</li>
-                    <li><img src={phone_icon} alt=""/> +23278764563</li>
-                    <li><img src={location_icon} alt=""/> 12 Upper Brook Street, Freetown <br/>Sierra Leone</li>
+                    <li><img src={mail_icon} alt=""/> ict@hcisl.net</li>
+                    <li><img src={phone_icon} alt=""/>  +232 76 863157</li>
+                    <li><img src={location_icon} alt=""/> 18 Upper Brook Street, Freetown <br/>Sierra Leone</li>
                 </ul>
             </div>
             <div className="contact-col">
