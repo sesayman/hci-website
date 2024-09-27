@@ -14,7 +14,7 @@ const Testimonials = () => {
         { user: user_1, name: "William Sesay", location: "Freetown, Sierra Leone", text: "Choosing to pursue my degree at Human Resource Institute was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations." },
         { user: user_2, name: "Amadu Bah", location: "Freetown, Sierra Leone", text: "Choosing to pursue my degree at Human Resource Institute was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations." },
         { user: user_3, name: "Mary Conteh", location: "Freetown, Sierra Leone", text: "Choosing to pursue my degree at Human Resource Institute was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations." },
-        { user: user_4, name: "Josephine Sankoh", location: "Freetown, Sierra Leone", text: "Choosing to pursue my degree at Human Resource Institute was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations." },
+        { user: user_4, name: "Josephine", location: "Freetown, Sierra Leone", text: "Choosing to pursue my degree at Human Resource Institute was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations." },
     ];
 
     useEffect(() => {

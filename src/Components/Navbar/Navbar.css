@@ -50,12 +50,13 @@ nav ul li {
         background: #212ea0;
         z-index: -1;
         width: 200px;
-        padding: 70px;
+        padding-top: 70px;
         transition: 0.5s;
     }
     nav ul li {
         display: block;
         margin: 25px 40px;
+        font-size: 12px;
     }
     .menu-icon {
         display: block;

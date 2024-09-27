@@ -26,7 +26,7 @@ const Navbar = () => {
                 <li> <Link to='about' smooth={true} offset={-150} duration={500}>ABOUT</Link> </li>
                 <li> <Link to='campus' smooth={true} offset={-260} duration={500}>HCI INSTITUTION</Link> </li>
                 <li> <Link to='testimonials' smooth={true} offset={-260} duration={500}>TESTIMONIALS</Link> </li>
-                <li> <Link to='contact' smooth={true} offset={-260} duration={500} className='btn'>CONTACT US</Link> </li>
+                <li> <Link to='contact' smooth={true} offset={-260} duration={500} className='btn'>CONTACT</Link> </li>
 
             </ul>
             <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
