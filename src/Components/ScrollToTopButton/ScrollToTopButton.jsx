@@ -26,7 +26,7 @@ const ScrollToTopButton = () => {
     return (
         isVisible && (
             <button onClick={scrollToTop} style={buttonStyle}>
-                ↑ Scroll to Top
+                ↑
             </button>
         )
     );

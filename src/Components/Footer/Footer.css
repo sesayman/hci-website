@@ -1,26 +1,103 @@
+/* Full-Width Footer */
 .footer {
-    margin: 10px auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-top: 1px solid #797979;
-    padding: 15px 0;
+    width: 100%;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2b2b2b 100%);
+    color: white;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border-top: 1px solid #444;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
 }
-.footer ul li {
+
+/* Flexbox Layout for Footer Content */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Left Section */
+.footer-left {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-left p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Center Section */
+.footer-center {
+    flex: 1;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.footer-center p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #ddd;
+}
+
+.footer-center h3,
+.footer-center h4,
+.footer-center h5 {
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+/* Right Section */
+.footer-right {
+    flex: 1;
+    text-align: right;
+}
+
+.footer-right .footer-icons ul {
     list-style: none;
-    display: inline-block;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-right .footer-icons ul li {
     margin-left: 20px;
 }
-/*media query*/
+
+.footer-right .footer-icons ul li a {
+    color: #ddd;
+    font-size: 28px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-right .footer-icons ul li a:hover {
+    color: #1da1f2;
+    transform: scale(1.1);
+}
+
+/* Scroll to Top Button */
+.footer .scroll-top {
+    margin-top: 20px;
+}
+
+/* Media Queries for Responsiveness */
 @media (max-width: 800px) {
-    .footer {
-        display: block;
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left,
+    .footer-center,
+    .footer-right {
         text-align: center;
+        margin: 10px 0;
     }
-    .footer ul li {
-        margin: 10px;
-    }
-    .footer ul {
-        margin-top: 10px;
+
+    .footer-right .footer-icons ul {
+        justify-content: center; 
     }
 }

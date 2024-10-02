@@ -21,6 +21,12 @@ nav ul li {
     margin: 5px 20px;
     font-size: 16px;
 }
+nav ul li:hover{
+    color: #ff771e  !important;
+    text-transform: initial;
+    text-decoration: underline !important;
+    width: 4px;
+}
 .dark-nav {
     background: #212ea0;
     transition: 0.5s;

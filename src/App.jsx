@@ -10,6 +10,8 @@ import Contact from "./Components/Contact/Contact.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 import CurrentYear from "./Components/CurrentYear/CurrentYear.jsx";
 import VideoPlayer from "./Components/VideoPlayer/VideoPlayer.jsx";
+import Courses from "./Components/Courses/Courses.jsx";
+import Services from "./Components/Services/Services.jsx";
 
 const App = () => {
     const [playState, setPlayState] = useState(false);
@@ -21,9 +23,12 @@ const App = () => {
             <div className='container'>
                 <Title subTitle='OUR PROGRAMS' title='WHAT WE OFFER'/>
                 <Programs />
+                <Courses />
                 <About setPlayState={setPlayState}/>
-                <Title subTitle='Gallery' title='Campus Photos'/>
+                <Title subTitle='Gallery' title=' Successful Students'/>
                 <Campus />
+                <Title subTitle='Our Services' title='These are the Services we support' />
+                <Services />
                 <Title subTitle='TESTIMONIALS' title='What our Students says'/>
                 <Testimonials />
                 <Title subTitle='Contact us' title='Set an appointment'/>
