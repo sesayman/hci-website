@@ -5,87 +5,41 @@ const Courses = () => {
     return (
         <div className="courses-container">
             <div className="courses">
-                <h4>CERTIFICATE COURSES</h4>
-                <p>These are the Certificate Courses we offer:</p>
+                <h4>WHAT WE OFFER</h4>
+                <p>These are the various Graphics Design we offer:</p>
                 <ul>
                     {[
-                        "Business Administration and Management",
-                        "Secretariat Studies",
-                        "Building and Construction",
-                        "Wood Work and Technology",
-                        "Painting and Decoration",
-                        "Human Resource Management",
-                        "Community Development Studies",
-                        "Purchasing and Supply Chain Management",
-                        "Logistics and Transportation Management",
-                        "Warehousing and Stores Management",
-                        "Accounting and Finance",
-                        "Information Communication and Technology",
-                        "Entrepreneurship, Creativity and Innovation",
-                        "Electrical Installation Work",
-                        "Cooling and Lightening",
-                        "Mechanical Maintenance Engineering"
+                        "Banner Printing",
+                        "Sticker Printing",
+                        "T-Shirt and Cap Printing",
+                        "DTF Printing",
+                        "Canvas Printing",
+                        " Wooden Frame",
+                        "Typing and Printing",
+                        "Customized Birthday Cards",
+                        "Banners Design",
+                        " Logo Design",
+                        "Letter Heads",
+                        "Wedding Souvenir ",
+                        "Complimentary Cards ",
+                        "Menus ",
+                        "Receipt Book",
+                        "Picture Printings",
+                        "Tickets",
+                        "Application Forms",
+                        "Cups and Mugs Printing ",
+                        "Laminating",
+                        "Personalised Pillow case ",
+                        "Customised Accessories Designs ",
+                        "Responsive Website Designs ",
+                        "Add QR Codes Video on your Canvas Frame ",
+                        "University Online Application for all Universities and Colleges ",
+                        "We sells Scratch Cards and Check Results for NPSE, BECE and WASSCE Examinations ",
+                        "We do Private Wassce Entries",
+                        "We do All Money transfers Ria, BnB, Western Union, Afro, MoneyGram, World Remit, EDSA Credits, OrangeMoney, AfriMoney, Qmoney"
                     ].map((course, index) => (
                         <li key={index}>{index + 1}. {course}</li>
                     ))}
-                </ul>
-
-                <h4>DIPLOMA COURSES</h4>
-                <p>These are the Diploma Courses we offer:</p>
-                <ul>
-                    {[
-                        "Business Administration and Management",
-                        "Secretariat Studies",
-                        "Building and Construction",
-                        "Wood Work and Technology",
-                        "Painting and Decoration",
-                        "Human Resource Management",
-                        "Community Development Studies",
-                        "Purchasing and Supply Chain Management",
-                        "Logistics and Transportation Management",
-                        "Warehousing and Stores Management",
-                        "Accounting and Finance",
-                        "Information Communication and Technology",
-                        "Entrepreneurship, Creativity and Innovation",
-                        "Electrical Installation Work",
-                        "Cooling and Lightening",
-                        "Mechanical Maintenance Engineering"
-                    ].map((course, index) => (
-                        <li key={index}>{index + 1}. {course}</li>
-                    ))}
-                </ul>
-
-                <h4>HIGHER NATIONAL DIPLOMA COURSES</h4>
-                <p>These are the Higher National Diploma Courses we offer:</p>
-                <ul>
-                    {[
-                        "Business Administration and Management",
-                        "Secretariat Studies",
-                        "Building and Construction",
-                        "Wood Work and Technology",
-                        "Painting and Decoration",
-                        "Human Resource Management",
-                        "Community Development Studies",
-                        "Purchasing and Supply Chain Management",
-                        "Logistics and Transportation Management",
-                        "Warehousing and Stores Management",
-                        "Accounting and Finance",
-                        "Information Communication and Technology",
-                        "Entrepreneurship, Creativity and Innovation",
-                        "Electrical Installation Work",
-                        "Cooling and Lightening",
-                        "Mechanical Maintenance Engineering"
-                    ].map((course, index) => (
-                        <li key={index}>{index + 1}. {course}</li>
-                    ))}
-                </ul>
-
-                <h4>SHORT COURSES</h4>
-                <p>Short Courses Programmes:</p>
-                <ul>
-                    <li>Professional Development Courses: Leadership, Communication, and Technology.</li>
-                    <li>Entrepreneurship Programs: Empower individuals to become entrepreneurs.</li>
-                    <li>Community Outreach: Literacy Programs and Vocational Training for underserved populations.</li>
                 </ul>
             </div>
         </div>

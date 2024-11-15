@@ -21,15 +21,15 @@ const App = () => {
             <Navbar />
             <Hero />
             <div className='container'>
-                <Title subTitle='OUR PROGRAMS' title='WHAT WE OFFER'/>
+                <Title subTitle='OUR WORKS' title='WHAT WE OFFER'/>
                 <Programs />
                 <Courses />
                 <About setPlayState={setPlayState}/>
-                <Title subTitle='Gallery' title=' Successful Students'/>
+                <Title subTitle='Gallery' title=' Canvas Frames different sizes available'/>
                 <Campus />
                 <Title subTitle='Our Services' title='These are the Services we support' />
                 <Services />
-                <Title subTitle='TESTIMONIALS' title='What our Students says'/>
+                <Title subTitle='TESTIMONIALS' title='What our Customers says'/>
                 <Testimonials />
                 <Title subTitle='Contact us' title='Set an appointment'/>
                 <Contact />

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "./Navbar.css";
-import logo from '../../assets/hci-images/Logo-HCI.png';
+import logo from '../../assets/hci-images/logos.jpg';
 import { Link } from "react-scroll";
 import menu_icon from '../../assets/hci-images/menu-icon.png';
 
@@ -38,13 +38,13 @@ const Navbar = () => {
                     <Link to='hero' smooth={true} offset={0} duration={500} onClick={handleMenuClick}>HOME</Link>
                 </li>
                 <li>
-                    <Link to='program' smooth={true} offset={-273} duration={500} onClick={handleMenuClick}>PROGRAMS</Link>
+                    <Link to='program' smooth={true} offset={-273} duration={500} onClick={handleMenuClick}>GRAPHIC DESIGN</Link>
                 </li>
                 <li>
                     <Link to='about' smooth={true} offset={-150} duration={500} onClick={handleMenuClick}>ABOUT</Link>
                 </li>
                 <li>
-                    <Link to='campus' smooth={true} offset={-260} duration={500} onClick={handleMenuClick}>HCI INSTITUTION</Link>
+                    <Link to='campus' smooth={true} offset={-260} duration={500} onClick={handleMenuClick}>ACCESS GLOBAL</Link>
                 </li>
                 <li>
                     <Link to='services' smooth={true} offset={-260} duration={500} onClick={handleMenuClick}>OUR SERVICES</Link>

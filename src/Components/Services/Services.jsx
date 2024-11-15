@@ -10,84 +10,102 @@ import {
     faSuitcase,
     faUsers
 } from "@fortawesome/fontawesome-free-solid";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Services = () => {
     return (
         <div className='services'>
-            <h4>We support you to navigate the ever-changing business dynamics while you remain focused on your core functions.</h4>
-            <h5>With Africa's economy projected to grow, this is the time for international companies to expand their business into the African continent. However, this in itself is both an exciting and challenging endeavor. Human Capital Institute Sierra Leone will provide you with all the expatriate administrative solutions you need to succeed. We offer every solution you need in one location including but not limited to:</h5>
+            <h4>We support you with all your printings and graphics designs.</h4>
+            <h5> Visit us at our Head Office at <b>555 Corner Kick, Waterloo</b> and our branch at <b>8 Lunsar Road,
+                Makeni City</b></h5>
             <div className="grid">
                 <ul className="service-list">
                     <li className="service-item">
-                        <FontAwesomeIcon icon={faUsers} className="icon" />
-                        <h3>HR Administration</h3>
-                        <p>Streamline your HR tasks with our comprehensive administration service. From onboarding to compliance, we handle it all, freeing you to focus on growing your business.</p>
+                        <FontAwesomeIcon icon={faUsers} className="icon"/>
+                        <h3>Banner Printing</h3>
+                        <p>Our services focus on growing your business so we offer the best Banner Printing
+                            Solutions.</p>
                     </li>
                     <li className="service-item">
-                        <FontAwesomeIcon icon={faSuitcase} className="icon" />
-                        <h3>Immigration Process Support</h3>
-                        <p>Simplify immigration procedures with our expert support. From visa applications to residency permits, we guide you through the process smoothly.</p>
+                        <FontAwesomeIcon icon={faSuitcase} className="icon"/>
+                        <h3>Sticker Printing</h3>
+                        <p> we cater for you through our various printing solutions in the process of handling them
+                            smoothly.</p>
                     </li>
                     <li className="service-item">
-                        <FontAwesomeIcon icon={faMoneyBill} className="icon" />
-                        <h3>Payroll and Tax Administration</h3>
-                        <p>Let us take care of your payroll and tax duties. From calculations to filings, we ensure accuracy and compliance, giving you peace of mind.</p>
+                        <FontAwesomeIcon icon={faMoneyBill} className="icon"/>
+                        <h3>T-Shirt and Cap Printing</h3>
+                        <p>Let us take care of your T-Shirt and Caps printing, we ensure accuracy and neatness, giving
+                            you best of expectations.</p>
                     </li>
                     <li className="service-item">
-                        <FontAwesomeIcon icon={faBalanceScale} className="icon" />
-                        <h3>Business Startup Support</h3>
-                        <p>Launch your business with confidence. We offer comprehensive support, from planning to compliance, to help turn your vision into reality.</p>
+                        <FontAwesomeIcon icon={faBalanceScale} className="icon"/>
+                        <h3>DTF Printing</h3>
+                        <p>We offer comprehensive support with your DTF Printing Solutions, from designing to printing,
+                            to help turn your vision into reality.</p>
                     </li>
                     <li className="service-item">
-                        <FontAwesomeIcon icon={faHandshake} className="icon" />
-                        <h3>Procurement Administration</h3>
-                        <p>Optimize your procurement processes with our streamlined administration service. From sourcing to cost control, we handle it all efficiently.</p>
+                        <FontAwesomeIcon icon={faHandshake} className="icon"/>
+                        <h3>Canvas Printing </h3>
+                            <p>Optimize your canvas printing with our streamlined administration service.</p>
                     </li>
                     <li className="service-item">
-                        <FontAwesomeIcon icon={faHome} className="icon" />
-                        <h3>Third Party Payments</h3>
-                        <p>Simplify vendor payments with our reliable service. We manage the process from start to finish, ensuring timely and accurate payments.</p>
+                        <FontAwesomeIcon icon={faHome} className="icon"/>
+                        <h3>Wooden Frames</h3>
+                        <p>Simplify your wooden easy made frames with our reliable service. We manage the process from
+                            start to finish, ensuring timely and accurate delivery.</p>
                     </li>
                     <li className="service-item">
-                        <FontAwesomeIcon icon={faSpinner} className="icon" />
-                        <h3>Temporary Office Space</h3>
-                        <p>Need a workspace on short notice? Our flexible solutions provide fully equipped temporary offices, meeting rooms, and coworking spaces to meet your needs.</p>
+                        <FontAwesomeIcon icon={faSpinner} className="icon"/>
+                        <h3>ID Card Printing</h3>
+                        <p>Need a perfect ID Card for your Organisation? Our flexible solutions provide fully equipped
+                            temporary and permanent ID Cards, School Prefect Badges, and coworkers passes to meet your
+                            needs.</p>
                     </li>
                     <li className="service-item">
-                        <FontAwesomeIcon icon={faProcedures} className="icon" />
-                        <h3>Facilitating Accommodation</h3>
-                        <p>We facilitate temporary and permanent accommodation, including travel and movement arrangements such as airport meet and greet, and transfer to Freetown.</p>
+                        <FontAwesomeIcon icon={faProcedures} className="icon"/>
+                        <h3>We Build and Host Websites</h3>
+                        <p>We facilitate excellent and scalable single page website for a minimum fee, including hosting
+                            and design business brands.</p>
                     </li>
                 </ul>
             </div>
             <div className="new-1">
-            <h4>
-                What we specialize in</h4>
-            <h5>What we do and what can you expect from us</h5>
-            <ul>
-                <li>Recruitment & Selection</li>
-                   <li> Head-hunting & Outplacement</li>
-                       <li>  Communication & PR
-                    Trainings</li>
-                           <li>  Learning & Development Programmes</li>
-                               <li> Professional Membership Subscriptions & Licenses</li>
-                                   <li>  Organize Conferences and Business Events</li>
-                                       <li>  HR Advisory & Consultancy</li>
-                                           <li>  HR Management and Maintenance</li>
-                                               <li> Interim Projects Management
-                    Research, Monitoring & Evaluation-(baseline, mid-line and end line surveys)</li>
-                                                   <li>  Online advertisement/Job-boarding and Advertisement</li>
-                                                       <li>  New Businesses Registration in Sierra Leone</li>
-                                                           <li>  Immigration support services for Expats</li>
-                                                               <li>  Travel/Airport Meet and Greet/Accommodation facilitation</li>
-                                                                   <li>  Procurement & Logistical Support</li>
-                                                                       <li>  Personnel Administration & Maintenance</li>
-                                                                           <li> Organizational HR Policies Development</li>
-            </ul>
+                <h4>
+                    What we specialize in</h4>
+                <h5>""What you expect from us is what we do""</h5>
+                <ul>
+                    <li>Banner Printing </li>
+                    <li> Sticker Printing </li>
+                    <li> T-Shirt and Cap Printing </li>
+                    <li> DTF Printing </li>
+                    <li> Canvas Printing </li>
+                    <li> Wooden Frame </li>
+                    <li> Typing and Printing </li>
+                    <li> Customized Birthday Cards </li>
+                    <li> Banners </li>
+                    <li> Photocopy and Scanning </li>
+                    <li> Logo Design </li>
+                    <li> Letter Heads </li>
+                    <li> Wedding Souvenir </li>
+                    <li> Complimentary Cards </li>
+                    <li> Menus </li>
+                    <li> Receipt Book </li>
+                    <li> Picture Printings </li>
+                    <li> Tickets </li>
+                    <li> Application Forms </li>
+                    <li> Cups and Mugs Printing </li>
+                    <li> Personalised Pillow case </li>
+                    <li>Customised Accessories Designs </li>
+                    <li>University Online Application for all Universities and Colleges </li>
+                    <li>We sells Scratch Cards and Check Results for NPSE, BECE and WASSCE Examinations  </li>
+                    <li>We do Private Wassce Entries</li>
+                    <li>We do All Money transfers Ria, BnB, Western Union, Afro, MoneyGram, World Remit, EDSA Credits, OrangeMoney, AfriMoney, Qmoney </li>
+                    <li>Top Up Voucher  Available for Orange, Africell and Qcell </li>
+                </ul>
             </div>
         </div>
-    );
+);
 };
 
 export default Services;

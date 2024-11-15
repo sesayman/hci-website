@@ -14,7 +14,7 @@ const Contact = () => {
         setResult("Sending....");
         const formData = new FormData(event.target);
 
-        formData.append("access_key", "66181034-42e6-4ad2-9378-0834d672b856");
+        formData.append("access_key", "72461052-b773-4077-8e20-571286b1c444");
 
         const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
@@ -37,11 +37,14 @@ const Contact = () => {
                 <h3>Send us a message <img src={msg_icon} alt=""/></h3>
                 <p>Feel free to reach out through contact form or find our contact information below.
                     Your feedback, questions, and suggestions are important to us as we
-                    strive to provide exceptional service to our university community.</p>
+                    strive to provide exceptional service to our universal community.</p>
                 <ul>
-                    <li><img src={mail_icon} alt=""/> ict@hcisl.net</li>
-                    <li><img src={phone_icon} alt=""/>  +232 76 863157</li>
-                    <li><img src={location_icon} alt=""/> 18 Upper Brook Street, Freetown <br/>Sierra Leone</li>
+                    <li><img src={mail_icon} alt=""/> accessglobalgraphicdesign@gmail.com</li>
+                    <li><img src={phone_icon} alt=""/>  +232 33152434</li>
+                    <li><img src={phone_icon} alt=""/>  +232 99750186</li>
+                    <li><img src={phone_icon} alt=""/>  +232 88497135</li>
+                    <li><img src={location_icon} alt=""/> 555 Corner Kick, Waterloo, Head Office <br/>Sierra Leone</li>
+                    <li><img src={location_icon} alt=""/> 8 Lunsar Road, Makeni, Branch Office <br/>Sierra Leone</li>
                 </ul>
             </div>
             <div className="contact-col">
